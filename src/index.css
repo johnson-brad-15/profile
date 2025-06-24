@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: #18181b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  color: black;
+  /* background-color: white; */
+  border-radius: 10px;
+}
+.card.container {
+  border-radius: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.card.content_container {
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  overflow: hidden;
+}
+.card.content {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+.card.content.container.eyeball {
+  width: fit-content;
+  margin: 0px;
+}
+.card.content.eyeball {
+  width: 400px;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.card.content.container.trading_ui {
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  /* width: fit-content;  */
+  width: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 0;
+}
+.card.content.trading_ui {
+  height: 487px;
+  width: 317px;
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  padding-top: 0px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+.card.image {
+  border-radius: 10px;
+}
+.card.verbiage {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  text-align: left;
+  background-color: gainsboro;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.card.title {
+  width: 100%;
+  max-width: 100%;
+}
+.card.description {
+  width: 100%;
+  max-width: 100%;
+}
+.seemore_flexrow {
+  width: 100%;
+  max-width: 100%;
+  flex-grow: 1;
+}
+.seemore {
+  padding-right: 5px;
+}
+
+.bioContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 80px;
+  background-color: transparent;
+  color: white;
+}
+.bioPic {
+  flex: 0;
+  width: 200px;
+  min-width: 200px;
+  height: 100%;
+  padding: 0;
+}
+.bioVerbiage {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* .bioTitle {
+  font
+} */
