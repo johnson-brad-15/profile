@@ -8,11 +8,14 @@ const projects = [
   {
     title: "JavaScript/CSS Style Demo",
     description:
-      `I wanted to experiment with what was possible using only JavaScript style manipulations; no animations or images.  
-      In addition to the realistic appearence, the eye will track the cursor 
-      when the mouse is over the image. The pupil is reactive in that it will be smaller when directed toward the light source
-      and larger when looking away from the light.  Additionally, the shape of the iris will be slightly distorted to convey 
-      perspective when nearing the edges of the sphere.`,
+`I wanted to experiment with what was possible using only JavaScript style manipulations; no animations \
+or images.  In addition to the realistic appearence, the eye will track the cursor when the mouse is over \
+the image. The pupil is reactive in that it will be smaller when directed toward the light source and \
+larger when looking away from the light.  Additionally, the shape of the iris will be slightly distorted to \
+convey perspective when nearing the edges of the sphere.  
+
+As an exploration into what is possible using only JavaScript style, I hope this shows an "eye" for design \
+and detail.`,
     content: 
     <div className="card content container eyeball">
       <iframe 
@@ -26,17 +29,22 @@ const projects = [
   {
     title: "React Trading UI",
     description:
-      `To the left is a functioning stock ladder that i wrote in JS/React as a means of mastering some of their complexities.
-      While I appreciate the amazing capabilities of AI in our field, it's use in this instance would have been contrary to
-      my goals, and I assure you that Cursor was only used for some rare debugging.
+      `To the left is a functioning stock ladder that i wrote in JS/React as a means of mastering some of their \
+      complexities.  (While I appreciate the amazing capabilities of AI in our field, its use in this instance \
+      would have been contrary to my goals, and I assure you that Cursor was only used for some rare debugging.) \
+      I originally designed the back end in python using websockets.  That worked great, but in order to deploy \
+      as a demo, I need to rewrite the back end in JavaScript.  Communication between front and back end makes use \
+      of a simplified FIX 4.2 protocol.
        
-      The demo features a summation of the equity's trading session on the top, with a change on day sparkline beneath.  
-      The ladder itself features a single automated market maker and allows the user to interact with the market as well. 
-      Simply click on the colored book columns at a given price and you will place an order at that level.  That order will 
-      show up in the outer columns representing your orders in the market.  You may right click on your order to cancel it, 
-      or drag and drop that order to a different price to modify.
+      The demo features a summation of the equity's trading session on the top, with a change on session sparkline \
+      beneath.  The ladder itself features a single automated market maker and allows the user to interact with \
+      the market as well:
+      • Left click the colored "book" columns to place an order at that level.
+      • Click drag/drop the resultant order in the outer "your orders" columns to modify the level.
+      • Right click your order to cancel it.
       
-      While certainly not a finished product, I hope that this successfully showcases my ability to code complex JS/React front ends.`,
+      While certainly not a finished product, I hope that this successfully showcases my ability to code complex \
+      JS/React front end solutions.`,
     // content: <Image className='card content img' src={require('../images/photo2.jpg')}/>
     content: 
     <div className="card content container trading_ui">
