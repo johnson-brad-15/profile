@@ -32,8 +32,8 @@ and detail.`,
       `To the left is a functioning stock ladder that i wrote in JS/React as a means of mastering some of their \
       complexities.  (While I appreciate the amazing capabilities of AI in our field, its use in this instance \
       would have been contrary to my goals, and I assure you that Cursor was only used for some rare debugging.) \
-      I originally designed the back end in python using websockets.  That worked great, but in order to deploy \
-      as a demo, I need to rewrite the back end in JavaScript.  Communication between front and back end makes use \
+      I originally designed the back end in Python using websockets.  That worked great, but in order to deploy \
+      as a demo, I needed to rewrite the back end in JavaScript and simulate the websocket messaging.  Communication between front and back end makes use \
       of a simplified FIX 4.2 protocol.
        
       The demo features a summation of the equity's trading session on the top, with a change on session sparkline \
